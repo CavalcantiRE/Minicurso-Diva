@@ -1,0 +1,45 @@
+:root{
+    --rosa_bebe: #ffd6e8;
+    --laranja: #ff6419;
+    --texto: #131313;
+    --link: #e12562;
+    --fundo: #fff5fa;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: var(--rosa_bebe);
+    color: #131313;
+    text-align: center;
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--laranja)
+}
+
+a:hover{
+    color: var(--link)
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card {
+    width:220px;
+    padding: 20px;
+    background-color: var(--fundo);
+    border-radius: 20px
+}
+
+.card img{
+      width:100%
+}
